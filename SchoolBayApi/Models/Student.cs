@@ -10,8 +10,5 @@ namespace SchoolBayApi.Models
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public string FullName => $"{FirstName} {MiddleName} {LastName}";
-
-
-
     }
 }
